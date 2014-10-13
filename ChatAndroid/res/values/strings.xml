@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TurboChat</string>
+    <string name="nick_name">Nickname</string>
+    <string name="password">Password</string>
+    <string name="register_button">Register</string>
+    <string name="login_button">Login</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="send_button">Send</string>
+    <string name="hint_send_text">Message</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="profile_item">Profile</string>
+    <string name="users_button">Users</string>
+</resources>
