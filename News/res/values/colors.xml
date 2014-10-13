@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundItem">#fffafafa</color>
+    <color name="backgroundDetail">#fffafafa</color>
+    <color name="pressed_color">#409e</color>
+    <color name="textCategory">#000000</color>
+    <color name="textTitle">#000000</color>
+    <color name="textDate">#000000</color>
+</resources>
