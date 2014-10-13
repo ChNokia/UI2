@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_letters">5sp</dimen>
+    <dimen name="margin_top_login">30sp</dimen>
+    <dimen name="margin_top_login_buttons">20sp</dimen>
+    <dimen name="app_name_size">42sp</dimen>
+    <dimen name="contact_list_size">16sp</dimen>
+    <dimen name="margin_contact_list">10dp</dimen>
+    <dimen name="margin_side_contact_list">5dp</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              style="@style/BackgroundStyle.ActivityStyle"
+        >
+
+    <LinearLayout
+            android:id="@+id/lettersLayoutId"
+            android:orientation="vertical"
+            style="@style/BackgroundStyle.ActivityStyle.MessagesTextStyle"
+            android:layout_weight="1"
+            >
+
+        <ScrollView
+                android:id="@+id/scrollMessageId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:id="@+id/scrollLinearId"
+                    android:orientation="vertical"
+                    style="@style/BackgroundStyle.ActivityStyle.MessagesTextStyle"
+                    >
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/sendMessageLayoutId"
+            style="@style/BackgroundStyle"
+            android:layout_marginLeft="@dimen/margin_letters"
+            android:layout_marginRight="@dimen/margin_letters"
+            android:layout_weight="9"
+            >
+        <EditText
+                android:id="@+id/textMessageId"
+                style="@style/EditTextStyle"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/sendIdButton"
+                android:textColor="@color/app_name"
+                android:hint="@string/hint_send_text">
+        </EditText>
+
+        <Button
+                android:id="@+id/sendIdButton"
+                style="@style/ButtonStyle"
+                android:layout_alignParentRight="true"
+                android:text="@string/send_button">
+        </Button>
+    </RelativeLayout>
+</LinearLayout>

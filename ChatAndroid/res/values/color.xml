@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_login">#ffdfdfdf</color>
+    <color name="app_name">#ff25242c</color>
+    <color name="nickname">#ffa2a0af</color>
+    <color name="password">#ffa2a0af</color>
+    <color name="background_letters">#fffcfcfc</color>
+</resources>
