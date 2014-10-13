@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categoryMarginLeft">4dp</dimen>
+    <dimen name="titleMarginLeft">4dp</dimen>
+    <dimen name="dateMarginRight">8dp</dimen>
+    <dimen name="textTittleSizeLand">8dp</dimen>
+    <dimen name="textCategorySizeLand">7dp</dimen>
+    <dimen name="textTittleSize">10dp</dimen>
+    <dimen name="textCategorySize">9dp</dimen>
+    <dimen name="textDateSizeLand">7dp</dimen>
+    <dimen name="textDateSize">10dp</dimen>
+
+</resources>
