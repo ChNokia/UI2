@@ -2,6 +2,7 @@
 <resources>
     <dimen name="categoryMarginLeft">4dp</dimen>
     <dimen name="titleMarginLeft">4dp</dimen>
+    <dimen name="webViewMarginLeft">2dp</dimen>
     <dimen name="dateMarginRight">8dp</dimen>
     <dimen name="textTittleSizeLand">8dp</dimen>
     <dimen name="textCategorySizeLand">7dp</dimen>

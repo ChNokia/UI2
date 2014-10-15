@@ -2,16 +2,13 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              style="@style/BackgroundStyle.FragmentStyle"
               android:background="@drawable/frame">
 
     <WebView
             android:id="@+id/webViewDetail"
-            android:layout_marginLeft="2px"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
+            style="@style/BackgroundStyle"
+            android:layout_marginLeft="@dimen/webViewMarginLeft">
 
     </WebView>
 
