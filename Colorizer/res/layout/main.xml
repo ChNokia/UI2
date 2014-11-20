@@ -21,6 +21,7 @@
     <SeekBar
             android:id="@+id/seekId"
             style="@style/LayoutMargin"
+            android:max="360"
             android:thumb="@drawable/thumb"
             />
 </LinearLayout>

@@ -2,18 +2,15 @@ package com.homework.news;
 
 import java.util.Date;
 
-/**
- * Created by Yushchenko on 26.09.2014.
- */
 public class ItemNews {
     private String category;
-    private String tittle;
+    private String title;
     private int image;
     private Date date;
 
-    public ItemNews(String category, String tittle, int image) {
+    public ItemNews(String category, String title, int image) {
         this.category = category;
-        this.tittle = tittle;
+        this.title = title;
         this.image = image;
     }
 
@@ -21,8 +18,8 @@ public class ItemNews {
         return this.category;
     }
 
-    public String getTittle() {
-        return this.tittle;
+    public String getTitle() {
+        return this.title;
     }
 
     public String getDate() {

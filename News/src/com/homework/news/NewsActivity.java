@@ -3,19 +3,11 @@ package com.homework.news;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-
-import java.util.ArrayList;
 
 public class NewsActivity extends Activity {
-    /**
-     * Called when the activity is first created.
-     */
 
     final String TAG = "States";
 
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
