@@ -7,13 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import java.util.List;
-
-/**
- * Created by Yushchenko on 26.09.2014.
- */
-
 
 public class AdapterForNews extends BaseAdapter {
     private LayoutInflater layoutInflater;
@@ -21,7 +15,7 @@ public class AdapterForNews extends BaseAdapter {
 
     static class ViewHolder{
         TextView textCategory;
-        TextView textTittle;
+        TextView textTitle;
         TextView textDate;
         ImageView srcImage;
     }
@@ -42,11 +36,19 @@ public class AdapterForNews extends BaseAdapter {
 
     @Override
     public Object getItem(int position) {
+        if ( data == null ) {
+            return null; //what object return?
+        }
+
         return data.get(position);
     }
 
     @Override
     public long getItemId(int position) {
+        if ( data == null ) {
+            return 0; //what object return?
+        }
+
         return position;
     }
 
@@ -60,7 +62,7 @@ public class AdapterForNews extends BaseAdapter {
             holder = new ViewHolder();
 
             holder.textCategory = (TextView) curentView.findViewById(R.id.newsCategory);
-            holder.textTittle = (TextView) curentView.findViewById(R.id.newsTittle);
+            holder.textTitle = (TextView) curentView.findViewById(R.id.newsTittle);
             holder.textDate = (TextView) curentView.findViewById(R.id.newsTime);
             holder.srcImage = (ImageView) curentView.findViewById(R.id.newsImg);
 
@@ -73,7 +75,7 @@ public class AdapterForNews extends BaseAdapter {
         ItemNews article = (ItemNews) getItem(position);
 
         holder.textCategory.setText(article.getCategory());
-        holder.textTittle.setText(article.getTittle());
+        holder.textTitle.setText(article.getTitle());
         holder.textDate.setText(article.getDate());
         holder.srcImage.setImageResource(article.getImg());
 
